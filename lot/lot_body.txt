@@ -1,0 +1,20 @@
+ <h4>Planned Quantity</h4>
+ <table class="table table-bordered">
+        <tbody>
+            <tr>
+                <th style="width: 3%;" >Sr</th>
+                <th>Item Code</th>
+                <th>Quantity</th>
+            </tr>
+            {%- for row in doc.po_items -%}
+            <tr>
+                <td style="width: 2%;">{{row.idx}}</td>
+                <td style="width: 4%;">{{row.item_code}}</td>
+                <td style="width: 4%;">{{row.planned_qty}}</td>
+
+            </tr>
+            {%- endfor -%}
+        </tbody>
+    </table>
+<h4>Cloth Quantity (Colour & Dia Based)</h4>
+{{doc.cloth_quantity}}
