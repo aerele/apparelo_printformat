@@ -1,2 +1,40 @@
 
 {{doc.dc_cloth_quantity}}
+
+  <div class="row" style="border-bottom:1px solid #666;">
+    </div>
+
+ <div class="row" style="border-bottom:1px solid #666;">
+        <div class="col-xs-4 text-down">
+            Remarks:
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="row" style="border-bottom:1px solid #666;">
+        <div class="col-xs-4 text-down" style="border-right:1px solid #666;">
+            Party's Signature
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-xs-4 text-bottom" style="border-right:1px solid #666;">
+            Checked By
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-xs-4 text-bottom">
+            FOR ESSDEE KNITTING MILLS
+            PRIVATE LIMITED
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
